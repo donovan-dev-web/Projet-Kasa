@@ -1,2 +1,177 @@
-# Projet-Kasa
-Refonte front-end du site Kasa, leader de la location d’appartements entre particuliers. Projet React développé à partir de maquettes Figma dans le cadre du parcours Développeur Web OpenClassrooms.
+# Kasa — Application Web de Location Immobilière (React)
+
+Projet réalisé dans le cadre de la formation **Développeur Web** chez **OpenClassrooms**.
+
+---
+
+## Contexte du projet
+
+Vous êtes développeur front-end freelance pour **Kasa**, une entreprise de location d’appartements entre particuliers, leader du marché français avec plus de **500 nouvelles annonces par jour**.
+
+Le site historique de Kasa, développé il y a plus de 10 ans en **ASP.NET**, fait l’objet d’une **refonte complète** afin de :
+
+* moderniser la stack technique
+* améliorer la maintenabilité du code
+* offrir une expérience utilisateur fluide et responsive
+
+La nouvelle version du front-end est développée avec **React**, en suivant des **maquettes Figma** fournies par le designer et des **contraintes techniques strictes** définies par la CTO.
+
+---
+
+## Objectifs
+
+Votre mission principale est de :
+
+| Objectif                   | Description                                |
+| -------------------------- | ------------------------------------------ |
+| Initialiser le projet      | Création d’une application React avec Vite |
+| Développer le front-end    | Composants React réutilisables             |
+| Mettre en place le routing | Navigation avec React Router               |
+| Respecter les maquettes    | Intégration fidèle et responsive           |
+| Gérer les données          | Utilisation d’un fichier JSON local        |
+| Assurer la qualité         | Code propre, lisible et maintenable        |
+
+---
+
+## Fonctionnalités développées
+
+✔ Affichage dynamique des logements à partir d’un fichier JSON
+✔ Navigation entre les pages avec **React Router**
+✔ Galerie d’images avec navigation circulaire (précédent / suivant)
+✔ Gestion des cas limites (une seule image, boucle infinie)
+✔ Composant **Collapse** interactif avec animation CSS
+✔ Pages dynamiques pour chaque logement
+✔ Page d’erreur 404 personnalisée
+✔ Design responsive (desktop / tablette / mobile)
+
+---
+
+## Contraintes fonctionnelles respectées
+
+### Galerie (Carousel)
+
+* Si l’utilisateur est sur la première image et clique sur **Précédent**, la dernière image s’affiche
+* Si l’utilisateur est sur la dernière image et clique sur **Suivant**, la première image s’affiche
+* Si une seule image est disponible :
+
+  * les boutons de navigation disparaissent
+  * la numérotation n’est pas affichée
+* La galerie conserve une **hauteur fixe**, les images sont centrées et rognées
+
+### Collapse
+
+* Les Collapses sont **fermés par défaut**
+* Un clic permet d’ouvrir ou de fermer le contenu
+* Animation fluide réalisée en **CSS (Sass)**
+
+---
+
+## Stack technique
+
+| Technologie     | Utilisation                               |
+| --------------- | ----------------------------------------- |
+| React           | Développement de l’interface              |
+| Vite            | Bundler et environnement de développement |
+| React Router    | Gestion des routes                        |
+| JavaScript ES6+ | Logique applicative                       |
+| Sass (SCSS)     | Styles et animations CSS                  |
+| JSON            | Simulation des données back-end           |
+| Git / GitHub    | Versioning et dépôt du projet             |
+
+---
+
+## Démarrage du projet
+
+### Prérequis
+
+* Node.js (version recommandée ≥ 18)
+* npm ou yarn
+
+### Installation
+
+```bash
+git clone https://github.com/ton-utilisateur/kasa.git
+cd kasa
+npm install
+```
+
+### Lancer le projet en local
+
+```bash
+npm run dev
+```
+
+L’application est accessible à l’adresse :
+👉 `http://localhost:5173`
+
+---
+
+## Structure du projet
+
+```
+Structure à venir
+```
+
+---
+
+## Gestion des données
+
+En l’absence de back-end, les données sont fournies via un fichier JSON local :
+
+```
+src/assets/data/logements.json
+```
+
+Chaque logement contient :
+
+* un identifiant unique
+* un titre et une localisation
+* des images
+* une description
+* des équipements
+* des informations sur l’hôte
+* une note (rating)
+
+---
+
+## Routing de l’application
+
+| Route          | Description             |
+| -------------- | ----------------------- |
+| `/`            | Page d’accueil          |
+| `/about`       | Page À propos           |
+| `/housing/:id` | Page logement dynamique |
+| `*`            | Page 404                |
+
+---
+
+## Qualité & bonnes pratiques
+
+* Composants découpés et réutilisables
+* Props typées et structurées
+* Logique métier séparée de l’affichage
+* Respect strict des maquettes Figma
+* Animations CSS sans librairie externe
+* Code lisible et maintenable
+
+---
+
+## Auteur
+
+Projet réalisé par **Donovan Chartrain**
+Formation **Développeur Web — OpenClassrooms**
+
+Ce projet est réalisé dans un cadre pédagogique et peut être librement consulté.
+
+---
+
+---
+
+## 🧩 Changelog — Historique des actions
+
+| ID | Titre du Commit | Description               | Lien |
+| -: | --------------- | ------------------------- | ---- |
+| 01 | Création du repository| Création du projet|[`153cc80`](https://github.com/donovan-dev-web/Projet-Kasa/commit/153cc80)|
+
+
+---
