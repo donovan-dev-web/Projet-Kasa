@@ -1,0 +1,56 @@
+/**
+* navbar.module.scss
+* Ce fichier contient les styles spécifiques à la barre de navigation de l'application Kasa
+*/
+
+@use '@/styles/variables';
+@use '@/styles/breackpoints';
+
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+
+    @include breackpoints.respond-to('mobile') {
+        margin-top: 20px;
+        margin-bottom: 27px;
+        height: 47px;
+    }
+}
+
+.logo {
+    height: 68px;
+    width: 210px;
+    cursor: pointer;
+
+    @include breackpoints.respond-to('mobile') {
+        width: 145px;
+        height: 47px;
+    }
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.navItem {
+    font-family: variables.$font-primary;
+    font-size: 18px;
+    color: variables.$color-text;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 143%;
+}
+
+.active {
+    text-decoration: underline;
+}

@@ -1,5 +1,6 @@
 /**
-* Main SCSS file
+* main.scss
+* Ce fichier contient l'ensemble des styles globaux utiliser dans l'application Kasa
 */
 
 /* Initial Import config */
@@ -8,3 +9,18 @@
 @use './variables';
 @use './mixins';
 @use './breackpoints';
+
+
+/* Global Styles */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: variables.$color-text;
+    margin: auto 50px;
+    padding: 0;
+    box-sizing: border-box;
+
+    @include breackpoints.respond-to('mobile') {
+        margin: auto 27px;
+    }
+}

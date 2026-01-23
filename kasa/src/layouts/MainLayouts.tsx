@@ -1,20 +1,17 @@
-import { Outlet, Link } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
+import { Navbar } from '../components/Global/Navbar/Navbar.tsx'
+import { Footer } from '../components/Global/Footer/Footer.tsx'
 
 export function MainLayout() {
   return (
     <>
-      <header>
-        <nav>
-          <Link to="/">Home</Link> | <Link to="/about">About</Link>
-        </nav>
-      </header>
+      <Navbar />
+
       <main>
         <Outlet />
       </main>
 
-      <footer>
-        <p>© 2024 My React App</p>
-      </footer>
+      <Footer />
     </>
   )
 }

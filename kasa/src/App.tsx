@@ -9,6 +9,7 @@ import { About } from './pages/About/About.tsx'
 import { NotFound } from './pages/NotFound/NotFound.tsx'
 
 /* Global Style import */
+import './styles/_reset.scss'
 import './styles/main.scss'
 
 function App() {
