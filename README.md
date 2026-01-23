@@ -171,7 +171,7 @@ Ce projet est réalisé dans un cadre pédagogique et peut être librement consu
 
 | ID | Titre du Commit | Description               | Lien |
 | -: | --------------- | ------------------------- | ---- |
-| 01 | Création du repository| Création du projet|[`153cc80`](https://github.com/donovan-dev-web/Projet-Kasa/commit/153cc80)|
-
+| 01 | Création du repository | Initialisation de Github|[`153cc80`](https://github.com/donovan-dev-web/Projet-Kasa/commit/153cc80)|
+| 02 | Création du projet React | Création du projet React et préconfig |[`9de30c2`](https://github.com/donovan-dev-web/Projet-Kasa/commit/9de30c2)|
 
 ---
