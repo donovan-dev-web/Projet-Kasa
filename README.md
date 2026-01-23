@@ -173,5 +173,8 @@ Ce projet est réalisé dans un cadre pédagogique et peut être librement consu
 | -: | --------------- | ------------------------- | ---- |
 | 01 | Création du repository | Initialisation de Github|[`153cc80`](https://github.com/donovan-dev-web/Projet-Kasa/commit/153cc80)|
 | 02 | Création du projet React | Création du projet React et préconfig |[`9de30c2`](https://github.com/donovan-dev-web/Projet-Kasa/commit/9de30c2)|
+| 03 | Structure du projet | Mise en place de la structure des fichiers |[`88a61f2`](https://github.com/donovan-dev-web/Projet-Kasa/commit/88a61f2)|
+| 04 | Mise en place du routing | Mise en place et configuration des routes |[`f788fef`](https://github.com/donovan-dev-web/Projet-Kasa/commit/f788fef)|
+| 05 | Création du Layout | Création du Layout et composent de navbar et footer |[`7805273`](https://github.com/donovan-dev-web/Projet-Kasa/commit/7805273)|
 
 ---
