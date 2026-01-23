@@ -1,0 +1,10 @@
+/**
+* Main SCSS file
+*/
+
+/* Initial Import config */
+
+@use './reset'; 
+@use './variables';
+@use './mixins';
+@use './breackpoints';

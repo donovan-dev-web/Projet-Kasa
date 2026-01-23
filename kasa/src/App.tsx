@@ -1,10 +1,28 @@
+/* Config import */
+import { Routes, Route } from 'react-router-dom'
+
+/* Page import */
+import { MainLayout } from './layouts/MainLayouts.tsx'
+
+import { Home } from './pages/Home/Home.tsx'
+import { About } from './pages/About/About.tsx'
+import { NotFound } from './pages/NotFound/NotFound.tsx'
+
+/* Global Style import */
 import './styles/main.scss'
 
 function App() {
   return (
-    <>
-      <h1>Kasa</h1>
-    </>
+    <Routes>
+      {/* Loyout Principal */}
+      <Route element={<MainLayout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Route>
+
+      {/* Page Not Found */}
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   )
 }
 

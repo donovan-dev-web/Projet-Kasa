@@ -35,14 +35,14 @@ Votre mission principale est de :
 
 ## Fonctionnalités développées
 
-✔ Affichage dynamique des logements à partir d’un fichier JSON
-✔ Navigation entre les pages avec **React Router**
-✔ Galerie d’images avec navigation circulaire (précédent / suivant)
-✔ Gestion des cas limites (une seule image, boucle infinie)
-✔ Composant **Collapse** interactif avec animation CSS
-✔ Pages dynamiques pour chaque logement
-✔ Page d’erreur 404 personnalisée
-✔ Design responsive (desktop / tablette / mobile)
+* Affichage dynamique des logements à partir d’un fichier JSON
+* Navigation entre les pages avec **React Router**
+* Galerie d’images avec navigation circulaire (précédent / suivant)
+* Gestion des cas limites (une seule image, boucle infinie)
+* Composant **Collapse** interactif avec animation CSS
+* Pages dynamiques pour chaque logement
+* Page d’erreur 404 personnalisée
+* Design responsive (desktop / tablette / mobile)
 
 ---
 
