@@ -6,51 +6,67 @@
 @use '@/styles/variables';
 @use '@/styles/breackpoints';
 
-
 .navbar {
-    height: 70px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 45px;
-    margin-bottom: 50px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+  margin-bottom: 50px;
 
-    @include breackpoints.respond-to('mobile') {
-        margin-top: 20px;
-        margin-bottom: 27px;
-        height: 47px;
-    }
+  @include breackpoints.respond-to('mobile') {
+    margin-top: 20px;
+    margin-bottom: 27px;
+    height: 47px;
+  }
 }
 
 .logo {
-    height: 68px;
-    width: 210px;
-    cursor: pointer;
+  height: 68px;
+  width: 210px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 
-    @include breackpoints.respond-to('mobile') {
-        width: 145px;
-        height: 47px;
-    }
+  @include breackpoints.respond-to('mobile') {
+    width: 145px;
+    height: 47px;
+  }
 }
 
 .navLinks {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: auto;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+
+  @include breackpoints.respond-to('mobile') {
+    width: 100%;
+    gap: 0;
+    justify-content: space-evenly;
+  }
 }
 
 .navItem {
-    font-family: variables.$font-primary;
-    font-size: 18px;
-    color: variables.$color-text;
-    text-decoration: none;
-    cursor: pointer;
-    line-height: 143%;
+  font-family: variables.$font-primary;
+  font-size: 24px;
+  color: variables.$color-text;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 143%;
+
+  @include breackpoints.respond-to('mobile') {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
 }
 
 .active {
-    text-decoration: underline;
+  text-decoration: underline;
 }

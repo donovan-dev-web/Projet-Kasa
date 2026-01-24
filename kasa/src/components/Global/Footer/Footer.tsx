@@ -17,7 +17,7 @@ export function Footer() {
           <img src={Logo} alt="Kasa logo blanc" />
         </Link>
       </div>
-      <p>© 2020 Kasa. All rights reserved</p>
+      <p className={style.copyright}>© 2020 Kasa. All rights reserved</p>
     </footer>
   )
 }

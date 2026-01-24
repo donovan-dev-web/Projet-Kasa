@@ -5,22 +5,23 @@
 
 /* Initial Import config */
 
-@use './reset'; 
+@use './reset';
 @use './variables';
 @use './mixins';
 @use './breackpoints';
 
-
 /* Global Styles */
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    color: variables.$color-text;
-    margin: auto 50px;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: variables.$color-text;
+  margin: auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+  max-width: 1440px;
 
-    @include breackpoints.respond-to('mobile') {
-        margin: auto 27px;
-    }
+  @include breackpoints.respond-to('mobile') {
+    margin: auto;
+    padding: 0 27px;
+  }
 }
