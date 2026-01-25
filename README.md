@@ -176,5 +176,8 @@ Ce projet est réalisé dans un cadre pédagogique et peut être librement consu
 | 03 | Structure du projet | Mise en place de la structure des fichiers |[`88a61f2`](https://github.com/donovan-dev-web/Projet-Kasa/commit/88a61f2)|
 | 04 | Mise en place du routing | Mise en place et configuration des routes |[`f788fef`](https://github.com/donovan-dev-web/Projet-Kasa/commit/f788fef)|
 | 05 | Création du Layout | Création du Layout et composent de navbar et footer |[`7805273`](https://github.com/donovan-dev-web/Projet-Kasa/commit/7805273)|
+| 06 | Création de la banniere | Création de la baniere de la page d'accueile et A propos |[`5de77a0`](https://github.com/donovan-dev-web/Projet-Kasa/commit/5de77a0)|
+| 07 | Création de la page 404 | Création de la page 404 |[`040ed3b`](https://github.com/donovan-dev-web/Projet-Kasa/commit/040ed3b)|
+| 08 | Ajout du dropdonw | Création du dropdown et ajout dans la page A propos |[`c483f30`](https://github.com/donovan-dev-web/Projet-Kasa/commit/c483f30)|
 
 ---
