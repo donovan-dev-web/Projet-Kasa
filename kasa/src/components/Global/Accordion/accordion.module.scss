@@ -1,0 +1,85 @@
+/**
+ * accordion.module.scss
+ * Styles du composant Accordéon de l'application Kasa
+ * Présent dans la page A propos et la Page dynamique Logements
+ */
+
+@use '@/styles/variables';
+@use '@/styles/breackpoints';
+
+.accordionItem {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.accordionHeader {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px 10px 15px;
+  border-radius: 5px;
+  border: none;
+
+  background-color: variables.$color-primary;
+  color: variables.$color-text-light;
+
+  font-family: variables.$font-primary;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 143%;
+
+  cursor: pointer;
+}
+
+.accordionIcon {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+  width: 24px;
+  height: 24px;
+}
+
+.open {
+  transform: rotate(0deg);
+}
+
+.accordionContent {
+  width: 80%;
+  margin: auto;
+
+  overflow: hidden;
+  height: 0;
+
+  transition: height 0.35s ease;
+  background-color: variables.$color-background;
+  border-radius: 10px 10px 5px 5px;
+}
+
+.accordionInner {
+  padding: 12px 16px;
+}
+
+.accordionInner p {
+  font-family: variables.$font-primary;
+  font-size: 18px;
+  line-height: 143%;
+  margin: 0;
+}
+
+@include breackpoints.respond-to('mobile') {
+  .accordionHeader {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .accordionContent {
+    width: 100%;
+  }
+
+  .accordionInner p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
