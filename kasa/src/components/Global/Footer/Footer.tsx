@@ -12,12 +12,14 @@ import Logo from '@/assets/Logo/Logo_Kasa_WB.webp'
 export function Footer() {
   return (
     <footer className={style.footer}>
-      <div className={style.logo}>
-        <Link to="/">
-          <img src={Logo} alt="Kasa logo blanc" />
-        </Link>
+      <div className={style.footerContainer}>
+        <div className={style.logo}>
+          <Link to="/">
+            <img src={Logo} alt="Kasa logo blanc" />
+          </Link>
+        </div>
+        <p className={style.copyright}>© 2020 Kasa. All rights reserved</p>
       </div>
-      <p className={style.copyright}>© 2020 Kasa. All rights reserved</p>
     </footer>
   )
 }

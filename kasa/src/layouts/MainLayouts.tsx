@@ -2,12 +2,16 @@ import { Outlet } from 'react-router-dom'
 import { Navbar } from '../components/Global/Navbar/Navbar.tsx'
 import { Footer } from '../components/Global/Footer/Footer.tsx'
 
+/* Global Style import */
+import '../styles/_reset.scss'
+import '../styles/main.scss'
+
 export function MainLayout() {
   return (
     <>
       <Navbar />
 
-      <main>
+      <main className="main-layout">
         <Outlet />
       </main>
 

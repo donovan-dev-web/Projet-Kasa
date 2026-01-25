@@ -1,3 +1,8 @@
+/**
+ * HeroBanner.tsx
+ * Ce fichier contient le composant de la bannière hero de l'application Kasa pour la page d'accueil et la page A propos
+ */
+
 import style from './heroBanner.module.scss'
 
 interface HeroBannerProps {

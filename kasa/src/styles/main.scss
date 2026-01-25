@@ -11,17 +11,37 @@
 @use './breackpoints';
 
 /* Global Styles */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
   color: variables.$color-text;
   margin: auto;
-  padding: 0 50px;
   box-sizing: border-box;
-  max-width: 1440px;
+  height: 100%;
+}
+
+.app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-layout {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 50px;
+  margin: auto;
+  max-width: variables.$maximum-width;
 
   @include breackpoints.respond-to('mobile') {
-    margin: auto;
     padding: 0 27px;
   }
 }

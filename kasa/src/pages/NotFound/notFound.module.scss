@@ -1,0 +1,51 @@
+/**
+* notFound.module.scss
+* Ce fichier contient les styles spécifiques à la page 404 de l'application Kasa
+*/
+
+@use '@/styles/variables';
+@use '@/styles/breackpoints';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+
+.title {
+  font-size: 288px;
+  font-weight: 700;
+  color: variables.$color-primary;
+  text-align: center;
+  font-family: variables.$font-primary;
+  line-height: 143%;
+
+  @include breackpoints.respond-to('mobile') {
+    font-size: 96px;
+  }
+}
+
+.description {
+  font-size: 36px;
+  color: variables.$color-primary;
+  text-align: center;
+  font-family: variables.$font-primary;
+
+  @include breackpoints.respond-to('mobile') {
+    font-size: 18px;
+  }
+}
+
+.link {
+  font-size: 18px;
+  color: variables.$color-text;
+  text-decoration: underline;
+  font-family: variables.$font-primary;
+  text-align: center;
+
+  @include breackpoints.respond-to('mobile') {
+    font-size: 14px;
+  }
+}
