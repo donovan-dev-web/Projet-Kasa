@@ -1,3 +1,8 @@
+/**
+ * About.tsx
+ * Ce fichier contient le contenue de la page A propos.
+ */
+
 import style from './about.module.scss'
 
 import { HeroBanner } from '../../components/Global/HeroBanner/HeroBanner'

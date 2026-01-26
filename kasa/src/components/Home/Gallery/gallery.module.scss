@@ -1,0 +1,24 @@
+/**
+ * gallery.module.scss
+ * Fichier de styles pour la galerie de la page d'accueil.
+ */
+
+@use '@/styles/variables';
+@use '@/styles/breackpoints';
+
+.galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background-color: variables.$color-background;
+  padding: 50px 56px;
+  margin-top: 27px;
+
+  @include breackpoints.respond-to('mobile') {
+    padding: 0;
+    background-color: transparent;
+  }
+}

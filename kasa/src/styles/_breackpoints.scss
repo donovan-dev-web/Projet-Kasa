@@ -1,4 +1,9 @@
-@use "sass:map";
+/**
+* _Breackpoints.scss
+* Ce fichier contient les regles de breackpoint pour les media queries utiliser dans l'application Kasa pour le responsive.
+*/
+
+@use 'sass:map';
 
 $breakpoints: (
   mobile: 768px,
