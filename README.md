@@ -180,5 +180,7 @@ Ce projet est réalisé dans un cadre pédagogique et peut être librement consu
 | 07 | Création de la page 404 | Création de la page 404 |[`040ed3b`](https://github.com/donovan-dev-web/Projet-Kasa/commit/040ed3b)|
 | 08 | Ajout du dropdonw | Création du dropdown et ajout dans la page A propos |[`c483f30`](https://github.com/donovan-dev-web/Projet-Kasa/commit/c483f30)|
 | 09 | ajout du contexte Logements et galerie dynamique | mise en place du traiement des donnée via le json + Gallery/Cards et page dynamique via parametre :id |[`5ff2bd2`](https://github.com/donovan-dev-web/Projet-Kasa/commit/5ff2bd2)|
+| 10 | Création page Logements | Création et mise en page du contenue de la page A propos |[`9557157`](https://github.com/donovan-dev-web/Projet-Kasa/commit/9557157)|
+
 
 ---
