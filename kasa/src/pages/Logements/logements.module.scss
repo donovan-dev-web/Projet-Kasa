@@ -1,0 +1,43 @@
+/**
+ * logements.module.scss
+ * Styles de la page logements dynamique de l'application Kas
+ */
+
+@use '@/styles/variables';
+@use '@/styles/breackpoints';
+
+.headSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.titleSection {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.title {
+  font-family: variables.$font-primary;
+  font-size: 36px;
+  color: variables.$color-primary;
+  font-weight: 500;
+  line-height: variables.$lineHeight;
+}
+
+.location {
+  font-family: variables.$font-primary;
+  font-size: 18px;
+  color: variables.$color-text;
+  font-weight: 500;
+  line-height: variables.$lineHeight;
+}
+
+.AccordionSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 76px;
+}

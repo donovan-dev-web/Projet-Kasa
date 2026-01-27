@@ -1,0 +1,21 @@
+@use '@/styles/variables';
+
+.ratingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.rating {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.star {
+  fill: variables.$color-stars-off;
+}
+
+.starActive {
+  fill: variables.$color-primary;
+}

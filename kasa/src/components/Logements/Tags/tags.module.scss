@@ -1,0 +1,30 @@
+/**
+ * tags.module.scss
+ * Styles du modules de tags de l'application Kasa
+ * Présents sur la page dynamique logements
+ */
+
+@use '@/styles/variables';
+@use '@/styles/breackpoints';
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 10px;
+  margin: 15px auto;
+}
+
+.tag {
+  width: 115px;
+  background-color: variables.$color-primary;
+  color: variables.$color-text-light;
+  font-family: variables.$font-primary;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 10px;
+  height: 25px;
+  line-height: variables.$lineHeight;
+  padding: 3px 10px;
+}
