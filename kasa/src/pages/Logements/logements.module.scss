@@ -55,7 +55,7 @@
 
   @include breackpoints.respond-to('mobile') {
     flex-direction: column;
-    gap: 15px;
+    gap: 0px;
     margin-top: 15px;
   }
 }
@@ -63,9 +63,10 @@
 .profils {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 
   @include breackpoints.respond-to('mobile') {
     flex-direction: row-reverse;
+    justify-content: space-between;
   }
 }

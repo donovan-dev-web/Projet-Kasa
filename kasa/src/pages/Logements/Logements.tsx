@@ -29,7 +29,7 @@ export function Logements() {
 
   return (
     <>
-      <Carrousel imgRef={logement.cover} />
+      <Carrousel pictures={logement.pictures} />
       <div className={style.headSection}>
         <div className={style.titleSection}>
           <h1 className={style.title}>{logement.title}</h1>

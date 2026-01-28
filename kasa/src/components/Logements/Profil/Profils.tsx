@@ -1,3 +1,9 @@
+/**
+ * Profils.tsx
+ * Ce fichier contiens le code du composant profils pour afficher limage et le nom du profils proprietaire du logements
+ * ce composant est present dans la page dynamqiue logements
+ */
+
 import style from './profil.module.scss'
 
 interface ProfilsProps {

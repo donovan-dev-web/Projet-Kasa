@@ -1,3 +1,8 @@
+/**
+ * Tags.tsx
+ * Ce fichier conteint le code du composant affichant les Tags pour chaque logements
+ */
+
 import styles from './tags.module.scss'
 
 interface TagsProps {

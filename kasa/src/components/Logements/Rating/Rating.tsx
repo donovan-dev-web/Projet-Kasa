@@ -1,3 +1,8 @@
+/**
+ * Rating.tsx
+ * Ce fichier conteint le code du composant affichant les etoile pour chaque logements
+ */
+
 import style from './rating.module.scss'
 
 interface RatingProps {

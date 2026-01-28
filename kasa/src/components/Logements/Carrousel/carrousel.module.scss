@@ -11,15 +11,66 @@
   width: 100%;
   height: 415px;
   border-radius: 25px;
+  position: relative;
+  overflow: hidden;
 
   @include breackpoints.respond-to('mobile') {
     height: 255px;
+    border-radius: 10px;
   }
 }
 
-.placeholder {
+.image {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 25px;
+}
+
+/*-----*/
+
+.control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  height: 120px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  @include breackpoints.respond-to('mobile') {
+    height: 24px;
+  }
+}
+
+.prev {
+  left: 1rem;
+}
+
+.next {
+  right: 1rem;
+
+  img {
+    transform: rotate(180deg);
+  }
+}
+
+.Compteur {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: variables.$color-secondary;
+  font-family: variables.$font-primary;
+  font-size: 18px;
+  @include breackpoints.respond-to('mobile') {
+    display: none;
+  }
 }

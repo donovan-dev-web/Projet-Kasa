@@ -1,10 +1,20 @@
+/**
+ * rating.modules.scss
+ * Ce fichier contient le style des etoiles utiliser pour les notes de chaque logements
+ */
+
 @use '@/styles/variables';
+@use '@/styles/breackpoints';
 
 .ratingContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-top: 15px;
+  @include breackpoints.respond-to('mobile') {
+    margin-top: 0;
+  }
 }
 
 .rating {
@@ -14,6 +24,12 @@
 
 .star {
   fill: variables.$color-stars-off;
+  width: 24px;
+  height: 24px;
+  @include breackpoints.respond-to('mobile') {
+    width: 18px;
+    height: 18px;
+  }
 }
 
 .starActive {
