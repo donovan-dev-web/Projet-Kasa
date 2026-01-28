@@ -11,12 +11,20 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+
+  @include breackpoints.respond-to('mobile') {
+    flex-direction: column;
+  }
 }
 
 .titleSection {
   display: flex;
   flex-direction: column;
   width: 50%;
+
+  @include breackpoints.respond-to('mobile') {
+    width: 100%;
+  }
 }
 
 .title {
@@ -25,6 +33,10 @@
   color: variables.$color-primary;
   font-weight: 500;
   line-height: variables.$lineHeight;
+
+  @include breackpoints.respond-to('mobile') {
+    font-size: 18px;
+  }
 }
 
 .location {
@@ -40,4 +52,20 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 76px;
+
+  @include breackpoints.respond-to('mobile') {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+}
+
+.profils {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include breackpoints.respond-to('mobile') {
+    flex-direction: row-reverse;
+  }
 }
