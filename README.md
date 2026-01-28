@@ -109,7 +109,70 @@ L’application est accessible à l’adresse :
 ## Structure du projet
 
 ```
-Structure à venir
+├──📁 src
+│	├──📄 App.tsx
+│	├──📄 main.tsx
+│	├──📁 styles
+│	│	├──📄 _breackpoints.scss
+│	│	├──📄 _reset.scss
+│	│	├──📄 _variables.scss
+│	│	├──📄 main.scss
+│	├──📁 services
+│	│	├──📄 LogementsApi.ts
+│	├──📁 pages
+│	│	├──📁 NotFound
+│	│	│	├──📄 NotFound.tsx
+│	│	│	├──📄 notFound.module.scss
+│	│	├──📁 Logements
+│	│	│	├──📄 Logements.tsx
+│	│	│	├──📄 logements.module.scss
+│	│	├──📁 Home
+│	│	│	├──📄 Home.tsx
+│	│	├──📁 About
+│	│	│	├──📄 About.tsx
+│	│	│	├──📄 about.module.scss
+│	├──📁 layouts
+│	│	├──📄 MainLayouts.tsx
+│	├──📁 context
+│	│	├──📄 LogementContext.tsx
+│	│	├──📄 LogementsProvider.tsx
+│	│	├──📄 useLogements.ts
+│	├──📁 components
+│	│	├──📁 Logements
+│	│	│	├──📁 Tags
+│	│	│	│	├──📄 Tags.tsx
+│	│	│	│	├──📄 tags.module.scss
+│	│	│	├──📁 Rating
+│	│	│	│	├──📄 Rating.tsx
+│	│	│	│	├──📄 rating.module.scss
+│	│	│	├──📁 Profil
+│	│	│	│	├──📄 Profils.tsx
+│	│	│	│	├──📄 profil.module.scss
+│	│	│	├──📁 Carrousel
+│	│	│	│	├──📄 Carrousel.tsx
+│	│	│	│	├──📄 carrousel.module.scss
+│	│	├──📁 Home
+│	│	│	├──📁 Gallery
+│	│	│	│	├──📄 Gallery.tsx
+│	│	│	│	├──📄 gallery.module.scss
+│	│	│	├──📁 Cards
+│	│	│	│	├──📄 Cards.tsx
+│	│	│	│	├──📄 cards.module.scss
+│	│	├──📁 Global
+│	│	│	├──📁 Navbar
+│	│	│	│	├──📄 Navbar.tsx
+│	│	│	│	├──📄 navbar.module.scss
+│	│	│	├──📁 HeroBanner
+│	│	│	│	├──📄 HeroBanner.tsx
+│	│	│	│	├──📄 heroBanner.module.scss
+│	│	│	├──📁 Footer
+│	│	│	│	├──📄 Footer.tsx
+│	│	│	│	├──📄 footer.module.scss
+│	│	│	├──📁 Accordion
+│	│	│	│	├──📄 Accordion.tsx
+│	│	│	│	├──📄 accordion.module.scss
+│	├──📁 assets
+
 ```
 
 ---
