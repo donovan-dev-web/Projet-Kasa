@@ -6,7 +6,7 @@ Projet réalisé dans le cadre de la formation **Développeur Web** chez **OpenC
 
 ## Contexte du projet
 
-Vous êtes développeur front-end freelance pour **Kasa**, une entreprise de location d’appartements entre particuliers, leader du marché français avec plus de **500 nouvelles annonces par jour**.
+Je suis développeur front-end freelance pour **Kasa**, une entreprise de location d’appartements entre particuliers, leader du marché français avec plus de **500 nouvelles annonces par jour**.
 
 Le site historique de Kasa, développé il y a plus de 10 ans en **ASP.NET**, fait l’objet d’une **refonte complète** afin de :
 
@@ -20,7 +20,7 @@ La nouvelle version du front-end est développée avec **React**, en suivant des
 
 ## Objectifs
 
-Votre mission principale est de :
+Ma mission principale est de :
 
 | Objectif                   | Description                                |
 | -------------------------- | ------------------------------------------ |
@@ -73,7 +73,7 @@ Votre mission principale est de :
 | React           | Développement de l’interface              |
 | Vite            | Bundler et environnement de développement |
 | React Router    | Gestion des routes                        |
-| JavaScript ES6+ | Logique applicative                       |
+| TypeScript      | Logique applicative                       |
 | Sass (SCSS)     | Styles et animations CSS                  |
 | JSON            | Simulation des données back-end           |
 | Git / GitHub    | Versioning et dépôt du projet             |
@@ -84,13 +84,13 @@ Votre mission principale est de :
 
 ### Prérequis
 
-* Node.js (version recommandée ≥ 18)
+* Node.js
 * npm ou yarn
 
 ### Installation
 
 ```bash
-git clone https://github.com/ton-utilisateur/kasa.git
+git clone https://github.com/donovan-dev-web/Projet-Kasa.git
 cd kasa
 npm install
 ```
@@ -203,7 +203,7 @@ Chaque logement contient :
 | -------------- | ----------------------- |
 | `/`            | Page d’accueil          |
 | `/about`       | Page À propos           |
-| `/housing/:id` | Page logement dynamique |
+| `/logement/:id` | Page logement dynamique |
 | `*`            | Page 404                |
 
 ---
@@ -241,7 +241,7 @@ Ce projet est réalisé dans un cadre pédagogique et peut être librement consu
 | 05 | Création du Layout | Création du Layout et composent de navbar et footer |[`7805273`](https://github.com/donovan-dev-web/Projet-Kasa/commit/7805273)|
 | 06 | Création de la banniere | Création de la baniere de la page d'accueile et A propos |[`5de77a0`](https://github.com/donovan-dev-web/Projet-Kasa/commit/5de77a0)|
 | 07 | Création de la page 404 | Création de la page 404 |[`040ed3b`](https://github.com/donovan-dev-web/Projet-Kasa/commit/040ed3b)|
-| 08 | Ajout du dropdonw | Création du dropdown et ajout dans la page A propos |[`c483f30`](https://github.com/donovan-dev-web/Projet-Kasa/commit/c483f30)|
+| 08 | Ajout du dropdown | Création du dropdown et ajout dans la page A propos |[`c483f30`](https://github.com/donovan-dev-web/Projet-Kasa/commit/c483f30)|
 | 09 | ajout du contexte Logements et galerie dynamique | mise en place du traiement des donnée via le json + Gallery/Cards et page dynamique via parametre :id |[`5ff2bd2`](https://github.com/donovan-dev-web/Projet-Kasa/commit/5ff2bd2)|
 | 10 | Création page Logements | Création et mise en page du contenue de la page Logements |[`9557157`](https://github.com/donovan-dev-web/Projet-Kasa/commit/9557157)|
 | 11 | Ajout du carrousel | Creation et ajout du composant de Carrousel present dans la page logements |[`981ada2`](https://github.com/donovan-dev-web/Projet-Kasa/commit/981ada2)|
