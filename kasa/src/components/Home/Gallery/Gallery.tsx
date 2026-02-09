@@ -20,17 +20,15 @@ export function Gallery() {
   }
 
   return (
-    <>
-      <div className={style.galleryContainer}>
-        {logements.map((logement) => (
-          <Cards
-            key={logement.id}
-            title={logement.title}
-            image={logement.cover}
-            path={`/logement/${logement.id}`}
-          />
-        ))}
-      </div>
-    </>
+    <div className={style.galleryContainer}>
+      {logements.map((logement) => (
+        <Cards
+          key={logement.id}
+          title={logement.title}
+          image={logement.cover}
+          path={`/logement/${logement.id}`}
+        />
+      ))}
+    </div>
   )
 }

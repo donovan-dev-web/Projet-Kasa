@@ -67,6 +67,7 @@ export function Carrousel({ pictures }: CarrouselProps) {
       {hasMultipleImages && (
         <>
           <button
+            type="button"
             className={`${style.control} ${style.prev}`}
             onClick={prev}
             aria-label="Image précédente"
@@ -75,6 +76,7 @@ export function Carrousel({ pictures }: CarrouselProps) {
           </button>
 
           <button
+            type="button"
             className={`${style.control} ${style.next}`}
             onClick={next}
             aria-label="Image suivante"
